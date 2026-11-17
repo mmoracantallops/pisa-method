@@ -1,0 +1,55 @@
+{
+  "n": 536001,
+  "positivity": {
+    "marginal_sd": 0.8998,
+    "by_binning": [
+      {
+        "bins": 10,
+        "min_sd": 0.4169,
+        "p05_sd": 0.5127,
+        "median_sd": 0.8715,
+        "ratio_min": 0.4633,
+        "frac_below_25pct": 0.0
+      },
+      {
+        "bins": 20,
+        "min_sd": 0.3881,
+        "p05_sd": 0.4396,
+        "median_sd": 0.873,
+        "ratio_min": 0.4314,
+        "frac_below_25pct": 0.0
+      },
+      {
+        "bins": 50,
+        "min_sd": 0.3581,
+        "p05_sd": 0.4233,
+        "median_sd": 0.8773,
+        "ratio_min": 0.398,
+        "frac_below_25pct": 0.0
+      }
+    ]
+  },
+  "categorical": {
+    "CONV - COMP": {
+      "offload_vs_balanced": 0.0068,
+      "offload_se": 0.00375,
+      "scaffold_vs_balanced": 0.05848,
+      "scaffold_se": 0.00286,
+      "implied_spread": -0.05168
+    },
+    "READ - CPRO": {
+      "offload_vs_balanced": 0.02229,
+      "offload_se": 0.00596,
+      "scaffold_vs_balanced": 0.09841,
+      "scaffold_se": 0.00464,
+      "implied_spread": -0.07613
+    },
+    "CMPS - CMOD": {
+      "offload_vs_balanced": -0.01101,
+      "offload_se": 0.00379,
+      "scaffold_vs_balanced": -0.01808,
+      "scaffold_se": 0.00322,
+      "implied_spread": 0.00707
+    }
+  }
+}
